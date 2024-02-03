@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: block;
+    
+    .btn-control{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        margin: 30px;
+        text-align: center;
+    }
+    .btn{
+        padding: 10px 30px;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+}
+.sayno{
+    color: #fff;
+    background-color: red;
+    outline: none;
+    border: 0 none;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+}
+.sayok{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background-color: forestgreen;
+    outline: none;
+    border: 0 none;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 0.3s all ;
+}
+.cat{
+    display: block;
+    margin: 10px;
+}
