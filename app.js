@@ -15,6 +15,8 @@ btnok.addEventListener("click",()=>{
     btnok.style.height = 0+"px"
     btnok.style.visibility = "hidden"
     btnno.style.visibility = "hidden"
+    imgcat.style.width = "270px"
+    imgcat.style.height = "170px"
     imgcat.setAttribute("src","https://i.pinimg.com/originals/92/01/4e/92014ee9d5b7a5da872631ebf72dc524.gif")
     topic.textContent = "ครูหนูให้ลาก่อน 07:30 นะครับ"
 })
