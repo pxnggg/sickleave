@@ -53,3 +53,8 @@ body{
     display: block;
     margin: 10px;
 }
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
